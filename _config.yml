@@ -1,0 +1,22 @@
+# Site settings
+title: Elaine Kamlley	
+email: elaine.kamlley@gmail.com	
+description: "Watch what I build!"
+baseurl: ""
+timezone: "America/New_York"
+
+# Build settings
+markdown: redcarpet
+permalink: pretty
+
+# social
+twitter: elainekamlley
+github: elainekamlley
+gems:
+  - jemoji
+defaults:
+  -
+    scope:
+      type: posts
+    values:
+      layout: post
